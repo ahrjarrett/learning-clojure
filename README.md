@@ -12,3 +12,5 @@ This is for practicing Clojure data types and notes that I’ve taken along with
 ### NOTES:
 - Connect to a live, already running REPL with `lein repl :connect nrepl://...` **-COOL**
 
+### Bookmark:
+- 28.18 => Unresolved dependency issue? See notes in src/learning_clojure/app.clj

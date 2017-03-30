@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [ring "1.6.0-RC1"]
                  [compojure "1.0.1"]
-                 [enlive "1.0.0"]])
+                 ; Changed this to include exclusion b/c of dependency conflict
+                 [enlive "1.0.0" :exclusions [org.clojure/clojure]]])
