@@ -7,3 +7,8 @@ This is for practicing Clojure data types and notes that I’ve taken along with
 - Dig into `lein` commands, how to install dependencies, where are they coming from (is there a dependency mgr like NPM?).
 - Consider going back to Spacemacs for access to some Emacs bindings?
 - What the hell is a class path? Ugh Java stuff. Research.
+- Figure out where the source of dependencies I installed (using `lein deps`) actually are?
+
+### NOTES:
+- Connect to a live, already running REPL with `lein repl :connect nrepl://...` **-COOL**
+
