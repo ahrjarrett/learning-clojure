@@ -10,9 +10,6 @@
   {:status 200
    :body (:uri request)})
 
-
-; tried running the code below, says no jetty namespace found...
-; see if this is a version issue, and if so, use the old version of ring?
 (defn run
   []
   (def server (jetty/run-jetty #'app {:port 8080 :join? false})))
