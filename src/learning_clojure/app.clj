@@ -9,6 +9,6 @@
   [request]
   {:status 200
    :headers {"Content-Type" "text/html"}
-   ;:body "sup"})
+   ;:body (:uri request)})
    :body (:uri request)})
 
